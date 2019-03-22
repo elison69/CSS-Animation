@@ -1,0 +1,173 @@
+/* ANIMATIONS */
+/* Tocar de cor */
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: exemple;
+    animation-duration: 2s;
+}
+
+@keyframes exemple {
+    from {background-color: red;}
+    to {background-color: blue;}
+} */
+
+
+/* Troca de cor e de posição */
+/* div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {top: 0px; left: 0px; background-color: red;}
+    25%{top: 200px; left: 0px; background-color: blue;}
+    50%{top: 200px; left: 200px; background-color: green;}
+    75%{top: 0px; left: 200px; background-color: yellow;}
+    100%{top: 0px; left: 0px; background-color: red;}
+} */
+
+
+/* Troca cor, posição e tem delay */
+/* div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes example {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+} */
+
+
+/* Animação infinita */
+/* div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+} */
+
+
+/* Animação alterna direção */
+/* div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0%   {background-color: red; left:0px; top:0px;}
+    25%  {background-color: blue; left:0px; top:200px;}
+    50%  {background-color: green; left:200px; top:200px;}
+    75%  {background-color: yellow; left:200px; top:0px;}
+    100% {background-color: red; left:0px; top:0px;}
+} */
+
+
+/* Merda nenhuma, so muda algum tipo de tempo de execução */
+/* div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+} */
+
+
+
+
+/* 2D */
+/* Transform */
+/* translate(px, px) posição */
+/* rotate(deg) rotação */
+/* scale(1,2) tamanho */
+/* skew(deg, deg), skewX(deg) ou skewY(deg) muda o eixo*/
+/* matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+
+
+/* 3D */
+/* transform */
+/* rotateX,Y,Z(deg) */
+/* perspective: 100px;
+   perspective-origin: left; 
+   //Div movida
+   transform-style: preserve-3d;
+   transform: rotateX(45deg);*/
+/* 
+#div1 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+	transform: rotateY(60deg);
+    transform-style: preserve-3d;
+}
+
+#div2 {
+    padding: 40px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: yellow;
+    transform: rotateY(-60deg);
+
+}
+
+#div3 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+} */
+
+
+
+
+
+
+/* JOGO */
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#nave {
+    position: relative;
+    left: 50%;
+    top: 850px;
+}
